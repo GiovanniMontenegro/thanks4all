@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/GiovanniMontenegro.github.io/thanks4all/static/css/main.f7bd1c68.chunk.css",
+    "main.js": "/GiovanniMontenegro.github.io/thanks4all/static/js/main.1b6c6c52.chunk.js",
+    "main.js.map": "/GiovanniMontenegro.github.io/thanks4all/static/js/main.1b6c6c52.chunk.js.map",
+    "runtime-main.js": "/GiovanniMontenegro.github.io/thanks4all/static/js/runtime-main.fd030844.js",
+    "runtime-main.js.map": "/GiovanniMontenegro.github.io/thanks4all/static/js/runtime-main.fd030844.js.map",
+    "static/js/2.3f2340d0.chunk.js": "/GiovanniMontenegro.github.io/thanks4all/static/js/2.3f2340d0.chunk.js",
+    "static/js/2.3f2340d0.chunk.js.map": "/GiovanniMontenegro.github.io/thanks4all/static/js/2.3f2340d0.chunk.js.map",
+    "index.html": "/GiovanniMontenegro.github.io/thanks4all/index.html",
+    "precache-manifest.d783b086fbe59bd8d735f22a3ef60c01.js": "/GiovanniMontenegro.github.io/thanks4all/precache-manifest.d783b086fbe59bd8d735f22a3ef60c01.js",
+    "service-worker.js": "/GiovanniMontenegro.github.io/thanks4all/service-worker.js",
+    "static/css/main.f7bd1c68.chunk.css.map": "/GiovanniMontenegro.github.io/thanks4all/static/css/main.f7bd1c68.chunk.css.map",
+    "static/js/2.3f2340d0.chunk.js.LICENSE": "/GiovanniMontenegro.github.io/thanks4all/static/js/2.3f2340d0.chunk.js.LICENSE"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.fd030844.js",
+    "static/js/2.3f2340d0.chunk.js",
+    "static/css/main.f7bd1c68.chunk.css",
+    "static/js/main.1b6c6c52.chunk.js"
+  ]
+}
