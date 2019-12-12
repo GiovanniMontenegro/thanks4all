@@ -1,0 +1,241 @@
+/*
+ *  Container style
+ */
+.container-in{
+  text-align: center;
+  height: 100vh;
+  overflow: hidden;
+  background: linear-gradient(234deg, #141a6b, #3eb3ce);
+  background-size: 400% 400%;  
+  -webkit-animation: backgroundAnimation 51s ease infinite;
+  -moz-animation: backgroundAnimation 51s ease infinite;
+  animation: backgroundAnimation 51s ease infinite;  
+}
+
+.container-out{  
+  text-align: center;
+  height: 100vh;
+  overflow: hidden;
+  -webkit-animation: flicker-in-1 1s linear 1s both;
+  animation: flicker-in-1 1s linear 1s both;
+}
+
+/**
+ * ----------------------------------------
+ * @animation backgroundAnimation
+ * ----------------------------------------
+ */
+
+@-webkit-keyframes backgroundAnimation {
+  0%{background-position:0% 97%}
+  50%{background-position:100% 4%}
+  100%{background-position:0% 97%}
+}
+@-moz-keyframes backgroundAnimation {
+  0%{background-position:0% 97%}
+  50%{background-position:100% 4%}
+  100%{background-position:0% 97%}
+}
+@keyframes backgroundAnimation {
+  0%{background-position:0% 97%}
+  50%{background-position:100% 4%}
+  100%{background-position:0% 97%}
+}
+
+/**
+ * ----------------------------------------
+ * @animation flicker-in-1
+ * ----------------------------------------
+ */
+ @-webkit-keyframes flicker-in-1 {
+  0% {
+    background: black;
+  }
+  10% {
+    background: white;
+    
+  }
+  10.1% {
+    background: black;
+  }
+  10.2% {
+    background: white;
+  }
+  20% {
+    background: black;
+  }
+  20.1% {
+    background: white;
+  }
+  20.6% {
+    background: black;
+  }
+  30% {
+    background: black;
+  }
+  30.1% {
+    background: white;
+  }
+  30.5% {
+    background: black;
+  }
+  30.6% {
+    background: white;
+  }
+  45% {
+    background: black;
+  }
+  45.1% {
+    background: white;
+  }
+  50% {
+    background: black;
+  }
+  55% {
+    background: white;
+  }
+  55.1% {
+    background: black;
+  }
+  57% {
+    background: white;
+  }
+  57.1% {
+    background: black;
+  }
+  60% {
+    background: white;
+  }
+  60.1% {
+    background: black;
+  }
+  65% {
+    background: white;
+  }
+  65.1% {
+    background: black;
+  }
+  75% {
+    background: white;
+  }
+  75.1% {
+    background: black;
+  }
+  77% {
+    background: white;
+  }
+  77.1% {
+    background: black;
+  }
+  85% {
+    background: white;
+  }
+  85.1% {
+    background: black;
+  }
+  86% {
+    background: white;
+  }
+  86.1% {
+    background: white;
+  }
+  100% {
+    background: black;
+  }
+}
+@keyframes flicker-in-1 {
+  0% {
+    background: black;
+  }
+  10% {
+    background: white;
+    
+  }
+  10.1% {
+    background: black;
+  }
+  10.2% {
+    background: white;
+  }
+  20% {
+    background: black;
+  }
+  20.1% {
+    background: white;
+  }
+  20.6% {
+    background: black;
+  }
+  30% {
+    background: black;
+  }
+  30.1% {
+    background: white;
+  }
+  30.5% {
+    background: black;
+  }
+  30.6% {
+    background: white;
+  }
+  45% {
+    background: black;
+  }
+  45.1% {
+    background: white;
+  }
+  50% {
+    background: black;
+  }
+  55% {
+    background: white;
+  }
+  55.1% {
+    background: black;
+  }
+  57% {
+    background: white;
+  }
+  57.1% {
+    background: black;
+  }
+  60% {
+    background: white;
+  }
+  60.1% {
+    background: black;
+  }
+  65% {
+    background: white;
+  }
+  65.1% {
+    background: black;
+  }
+  75% {
+    background: white;
+  }
+  75.1% {
+    background: black;
+  }
+  77% {
+    background: white;
+  }
+  77.1% {
+    background: black;
+  }
+  85% {
+    background: white;
+  }
+  85.1% {
+    background: black;
+  }
+  86% {
+    background: white;
+  }
+  86.1% {
+    background: white;
+  }
+  100% {
+    background: black;
+  }
+}
