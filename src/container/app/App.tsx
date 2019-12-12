@@ -14,6 +14,10 @@ type AppState = {
   isAnimationStopped: boolean;
 }
 
+/*
+* The truth is that people don't leave bad jobs, but bad bosses.
+*/
+
 export const App: React.FC = () => {
 
   const [appState, setAppState] = React.useState<AppState>({ rocketEngineStatus: "flying", hideBody: false, showHeart: "colored", isAnimationStopped: false })
@@ -40,7 +44,6 @@ export const App: React.FC = () => {
   const changeRocketEngineStatus = (engineStatus: EngineStatus) => {
     setAppState({ ...appState, rocketEngineStatus: engineStatus })
   }
-
 
   return (
     <div id="container" className={getContainerAnimation()}>

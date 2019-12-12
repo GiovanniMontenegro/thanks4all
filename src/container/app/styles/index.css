@@ -16,8 +16,9 @@
   text-align: center;
   height: 100vh;
   overflow: hidden;
-  -webkit-animation: flicker-in-1 1s linear 1s both;
-  animation: flicker-in-1 1s linear 1s both;
+  background: black;
+  -webkit-animation: flicker-in-1 1.5s linear 1s both;
+  animation: flicker-in-1 1.5s linear 1s both;
 }
 
 /**
@@ -49,17 +50,17 @@
  */
  @-webkit-keyframes flicker-in-1 {
   0% {
-    background: white;
+    opacity: 0.3;
   }
   100% {
-    background: black;
+    opacity: 1;
   }
 }
 @keyframes flicker-in-1 {
   0% {
-    background: white;
+    opacity: 0.3;
   }
   100% {
-    background: black;
+    opacity: 1;
   }
 }
