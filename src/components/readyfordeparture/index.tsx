@@ -64,8 +64,8 @@ const ReadyForDeparture: React.SFC<RFDProps> = (props: RFDProps): JSX.Element =>
                         <Typist.Delay ms={2000} />
                         <span>For helping me in bad moments</span>
                         <Typist.Backspace count={25} delay={500} />
-                        <span>making me smile when I need to most </span>
-                        <Typist.Backspace count={40} delay={500} />
+                        <span>making me smile when I need most </span>
+                        <Typist.Backspace count={37} delay={500} />
                         <span style={{ fontSize: 64 }}>Because without you</span>
                         <br />
                         <span style={{ fontSize: 64 }}>It wouldn't be the same</span>
