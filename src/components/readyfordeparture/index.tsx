@@ -39,7 +39,7 @@ const ReadyForDeparture: React.SFC<RFDProps> = (props: RFDProps): JSX.Element =>
         autoplay: true,
         animationData: get(rocketAnimation, "default"),
         rendererSettings: {
-            preserveAspectRatio: 'xMidYMid slice'
+            preserveAspectRatio: 'xMidYMid meet'
         }
     };
 
@@ -49,8 +49,8 @@ const ReadyForDeparture: React.SFC<RFDProps> = (props: RFDProps): JSX.Element =>
             <div id="rocket" className={getRocketAnimation()}>
                 <Lottie options={rocketOptions}
                     isClickToPauseDisabled={true}
-                    height={437}
-                    width={364}
+                    height={'40vh'}
+                    width={'35%'}
                 />
             </div>
             <div onAnimationEnd={() => { props.onEndTypingsAnimation() }} className={getTypingsAnimation()}>
